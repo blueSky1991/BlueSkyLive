@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--排行-->
+        <scene sceneID="yQN-Ch-nbR">
+            <objects>
+                <viewController id="KzI-Ra-v3F" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DkD-Ly-j0c"/>
+                        <viewControllerLayoutGuide type="bottom" id="g2W-se-4sF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nXS-BO-Aqc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="排行" image="ranking-n" selectedImage="found-n" id="com-96-8GQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zbk-7V-d8k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="968.79999999999995" y="-72.413793103448285"/>
+        </scene>
+        <!--Main Tab Barcontroller-->
+        <scene sceneID="yDk-6o-ptT">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="vHs-Of-2VA" customClass="MainTabBarcontroller" customModule="BlueSky" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="whr-am-7sg">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="KzI-Ra-v3F" kind="relationship" relationship="viewControllers" id="VaM-eX-wNg"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qcx-go-nHf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="29.600000000000001" y="-72.413793103448285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="found-n" width="25" height="19"/>
+        <image name="ranking-n" width="25" height="19"/>
+    </resources>
+</document>

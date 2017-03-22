@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A41CC691E80B6E600A36654 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41CC681E80B6E600A36654 /* AppDelegate.swift */; };
+		4A41CC6B1E80B6E600A36654 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41CC6A1E80B6E600A36654 /* ViewController.swift */; };
+		4A41CC6E1E80B6E600A36654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A41CC6C1E80B6E600A36654 /* Main.storyboard */; };
+		4A41CC701E80B6E600A36654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A41CC6F1E80B6E600A36654 /* Assets.xcassets */; };
+		4A41CC731E80B6E600A36654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A41CC711E80B6E600A36654 /* LaunchScreen.storyboard */; };
+		4A41CC7E1E80B6E600A36654 /* BlueSkyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41CC7D1E80B6E600A36654 /* BlueSkyTests.swift */; };
+		4A41CC891E80B6E600A36654 /* BlueSkyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41CC881E80B6E600A36654 /* BlueSkyUITests.swift */; };
+		4A41CCA51E80BCC100A36654 /* DiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41CCA41E80BCC100A36654 /* DiscoverController.swift */; };
+		4A41CCA71E80BCD200A36654 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41CCA61E80BCD200A36654 /* HomeController.swift */; };
+		4A41CCA91E80BCE300A36654 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41CCA81E80BCE300A36654 /* ProfileController.swift */; };
+		4A41CCAB1E80BCF400A36654 /* RankController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41CCAA1E80BCF400A36654 /* RankController.swift */; };
+		4A41CCAD1E80BDC600A36654 /* MainNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41CCAC1E80BDC600A36654 /* MainNavController.swift */; };
+		4A41CCAF1E80BDEA00A36654 /* MainTabBarcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A41CCAE1E80BDEA00A36654 /* MainTabBarcontroller.swift */; };
+		4A41CCB31E8104BD00A36654 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A41CCB21E8104BD00A36654 /* Discover.storyboard */; };
+		4A41CCB51E8105A900A36654 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A41CCB41E8105A900A36654 /* Home.storyboard */; };
+		4A41CCB71E8106C000A36654 /* Rank.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A41CCB61E8106C000A36654 /* Rank.storyboard */; };
+		4A41CCB91E81071100A36654 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A41CCB81E81071100A36654 /* Profile.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A41CC7A1E80B6E600A36654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A41CC5D1E80B6E600A36654 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A41CC641E80B6E600A36654;
+			remoteInfo = BlueSky;
+		};
+		4A41CC851E80B6E600A36654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A41CC5D1E80B6E600A36654 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A41CC641E80B6E600A36654;
+			remoteInfo = BlueSky;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A41CC651E80B6E600A36654 /* BlueSky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueSky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A41CC681E80B6E600A36654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../AppDelegate.swift; sourceTree = "<group>"; };
+		4A41CC6A1E80B6E600A36654 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A41CC6D1E80B6E600A36654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A41CC6F1E80B6E600A36654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A41CC721E80B6E600A36654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A41CC741E80B6E600A36654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A41CC791E80B6E600A36654 /* BlueSkyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueSkyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A41CC7D1E80B6E600A36654 /* BlueSkyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueSkyTests.swift; sourceTree = "<group>"; };
+		4A41CC7F1E80B6E600A36654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A41CC841E80B6E600A36654 /* BlueSkyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueSkyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A41CC881E80B6E600A36654 /* BlueSkyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueSkyUITests.swift; sourceTree = "<group>"; };
+		4A41CC8A1E80B6E600A36654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A41CCA41E80BCC100A36654 /* DiscoverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverController.swift; sourceTree = "<group>"; };
+		4A41CCA61E80BCD200A36654 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		4A41CCA81E80BCE300A36654 /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		4A41CCAA1E80BCF400A36654 /* RankController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankController.swift; sourceTree = "<group>"; };
+		4A41CCAC1E80BDC600A36654 /* MainNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavController.swift; sourceTree = "<group>"; };
+		4A41CCAE1E80BDEA00A36654 /* MainTabBarcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarcontroller.swift; sourceTree = "<group>"; };
+		4A41CCB21E8104BD00A36654 /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		4A41CCB41E8105A900A36654 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		4A41CCB61E8106C000A36654 /* Rank.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Rank.storyboard; sourceTree = "<group>"; };
+		4A41CCB81E81071100A36654 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A41CC621E80B6E600A36654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A41CC761E80B6E600A36654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A41CC811E80B6E600A36654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A41CC5C1E80B6E600A36654 = {
+			isa = PBXGroup;
+			children = (
+				4A41CC671E80B6E600A36654 /* BlueSky */,
+				4A41CC7C1E80B6E600A36654 /* BlueSkyTests */,
+				4A41CC871E80B6E600A36654 /* BlueSkyUITests */,
+				4A41CC661E80B6E600A36654 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A41CC661E80B6E600A36654 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A41CC651E80B6E600A36654 /* BlueSky.app */,
+				4A41CC791E80B6E600A36654 /* BlueSkyTests.xctest */,
+				4A41CC841E80B6E600A36654 /* BlueSkyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A41CC671E80B6E600A36654 /* BlueSky */ = {
+			isa = PBXGroup;
+			children = (
+				4A41CC961E80BC9500A36654 /* Classes */,
+				4A41CC6A1E80B6E600A36654 /* ViewController.swift */,
+				4A41CC6C1E80B6E600A36654 /* Main.storyboard */,
+				4A41CC6F1E80B6E600A36654 /* Assets.xcassets */,
+				4A41CC711E80B6E600A36654 /* LaunchScreen.storyboard */,
+				4A41CC741E80B6E600A36654 /* Info.plist */,
+			);
+			path = BlueSky;
+			sourceTree = "<group>";
+		};
+		4A41CC7C1E80B6E600A36654 /* BlueSkyTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A41CC7D1E80B6E600A36654 /* BlueSkyTests.swift */,
+				4A41CC7F1E80B6E600A36654 /* Info.plist */,
+			);
+			path = BlueSkyTests;
+			sourceTree = "<group>";
+		};
+		4A41CC871E80B6E600A36654 /* BlueSkyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A41CC881E80B6E600A36654 /* BlueSkyUITests.swift */,
+				4A41CC8A1E80B6E600A36654 /* Info.plist */,
+			);
+			path = BlueSkyUITests;
+			sourceTree = "<group>";
+		};
+		4A41CC961E80BC9500A36654 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4A41CC971E80BC9500A36654 /* Base */,
+				4A41CC9A1E80BC9500A36654 /* Controller */,
+				4A41CC9F1E80BC9500A36654 /* Main */,
+				4A41CCA01E80BC9500A36654 /* Model */,
+				4A41CCA11E80BC9500A36654 /* Tools */,
+				4A41CCA21E80BC9500A36654 /* Vender */,
+				4A41CCA31E80BC9500A36654 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4A41CC971E80BC9500A36654 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4A41CC681E80B6E600A36654 /* AppDelegate.swift */,
+				4A41CC981E80BC9500A36654 /* Nav */,
+				4A41CC991E80BC9500A36654 /* Tbar */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4A41CC981E80BC9500A36654 /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				4A41CCAC1E80BDC600A36654 /* MainNavController.swift */,
+			);
+			path = Nav;
+			sourceTree = "<group>";
+		};
+		4A41CC991E80BC9500A36654 /* Tbar */ = {
+			isa = PBXGroup;
+			children = (
+				4A41CCAE1E80BDEA00A36654 /* MainTabBarcontroller.swift */,
+			);
+			path = Tbar;
+			sourceTree = "<group>";
+		};
+		4A41CC9A1E80BC9500A36654 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A41CC9B1E80BC9500A36654 /* Discover */,
+				4A41CC9C1E80BC9500A36654 /* Home */,
+				4A41CC9D1E80BC9500A36654 /* Profile */,
+				4A41CC9E1E80BC9500A36654 /* Rank */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A41CC9B1E80BC9500A36654 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				4A41CCA41E80BCC100A36654 /* DiscoverController.swift */,
+				4A41CCB21E8104BD00A36654 /* Discover.storyboard */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		4A41CC9C1E80BC9500A36654 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4A41CCA61E80BCD200A36654 /* HomeController.swift */,
+				4A41CCB41E8105A900A36654 /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4A41CC9D1E80BC9500A36654 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				4A41CCA81E80BCE300A36654 /* ProfileController.swift */,
+				4A41CCB81E81071100A36654 /* Profile.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		4A41CC9E1E80BC9500A36654 /* Rank */ = {
+			isa = PBXGroup;
+			children = (
+				4A41CCAA1E80BCF400A36654 /* RankController.swift */,
+				4A41CCB61E8106C000A36654 /* Rank.storyboard */,
+			);
+			path = Rank;
+			sourceTree = "<group>";
+		};
+		4A41CC9F1E80BC9500A36654 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4A41CCA01E80BC9500A36654 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A41CCA11E80BC9500A36654 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		4A41CCA21E80BC9500A36654 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		4A41CCA31E80BC9500A36654 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A41CC641E80B6E600A36654 /* BlueSky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A41CC8D1E80B6E600A36654 /* Build configuration list for PBXNativeTarget "BlueSky" */;
+			buildPhases = (
+				4A41CC611E80B6E600A36654 /* Sources */,
+				4A41CC621E80B6E600A36654 /* Frameworks */,
+				4A41CC631E80B6E600A36654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueSky;
+			productName = BlueSky;
+			productReference = 4A41CC651E80B6E600A36654 /* BlueSky.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A41CC781E80B6E600A36654 /* BlueSkyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A41CC901E80B6E600A36654 /* Build configuration list for PBXNativeTarget "BlueSkyTests" */;
+			buildPhases = (
+				4A41CC751E80B6E600A36654 /* Sources */,
+				4A41CC761E80B6E600A36654 /* Frameworks */,
+				4A41CC771E80B6E600A36654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A41CC7B1E80B6E600A36654 /* PBXTargetDependency */,
+			);
+			name = BlueSkyTests;
+			productName = BlueSkyTests;
+			productReference = 4A41CC791E80B6E600A36654 /* BlueSkyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A41CC831E80B6E600A36654 /* BlueSkyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A41CC931E80B6E600A36654 /* Build configuration list for PBXNativeTarget "BlueSkyUITests" */;
+			buildPhases = (
+				4A41CC801E80B6E600A36654 /* Sources */,
+				4A41CC811E80B6E600A36654 /* Frameworks */,
+				4A41CC821E80B6E600A36654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A41CC861E80B6E600A36654 /* PBXTargetDependency */,
+			);
+			name = BlueSkyUITests;
+			productName = BlueSkyUITests;
+			productReference = 4A41CC841E80B6E600A36654 /* BlueSkyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A41CC5D1E80B6E600A36654 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "张东东";
+				TargetAttributes = {
+					4A41CC641E80B6E600A36654 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BQ7F5XB2U3;
+						ProvisioningStyle = Automatic;
+					};
+					4A41CC781E80B6E600A36654 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BQ7F5XB2U3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4A41CC641E80B6E600A36654;
+					};
+					4A41CC831E80B6E600A36654 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BQ7F5XB2U3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4A41CC641E80B6E600A36654;
+					};
+				};
+			};
+			buildConfigurationList = 4A41CC601E80B6E600A36654 /* Build configuration list for PBXProject "BlueSky" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A41CC5C1E80B6E600A36654;
+			productRefGroup = 4A41CC661E80B6E600A36654 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A41CC641E80B6E600A36654 /* BlueSky */,
+				4A41CC781E80B6E600A36654 /* BlueSkyTests */,
+				4A41CC831E80B6E600A36654 /* BlueSkyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A41CC631E80B6E600A36654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A41CCB71E8106C000A36654 /* Rank.storyboard in Resources */,
+				4A41CC731E80B6E600A36654 /* LaunchScreen.storyboard in Resources */,
+				4A41CCB51E8105A900A36654 /* Home.storyboard in Resources */,
+				4A41CCB31E8104BD00A36654 /* Discover.storyboard in Resources */,
+				4A41CC701E80B6E600A36654 /* Assets.xcassets in Resources */,
+				4A41CCB91E81071100A36654 /* Profile.storyboard in Resources */,
+				4A41CC6E1E80B6E600A36654 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A41CC771E80B6E600A36654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A41CC821E80B6E600A36654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A41CC611E80B6E600A36654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A41CCA91E80BCE300A36654 /* ProfileController.swift in Sources */,
+				4A41CCA71E80BCD200A36654 /* HomeController.swift in Sources */,
+				4A41CCAF1E80BDEA00A36654 /* MainTabBarcontroller.swift in Sources */,
+				4A41CC6B1E80B6E600A36654 /* ViewController.swift in Sources */,
+				4A41CCAD1E80BDC600A36654 /* MainNavController.swift in Sources */,
+				4A41CC691E80B6E600A36654 /* AppDelegate.swift in Sources */,
+				4A41CCA51E80BCC100A36654 /* DiscoverController.swift in Sources */,
+				4A41CCAB1E80BCF400A36654 /* RankController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A41CC751E80B6E600A36654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A41CC7E1E80B6E600A36654 /* BlueSkyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A41CC801E80B6E600A36654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A41CC891E80B6E600A36654 /* BlueSkyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A41CC7B1E80B6E600A36654 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A41CC641E80B6E600A36654 /* BlueSky */;
+			targetProxy = 4A41CC7A1E80B6E600A36654 /* PBXContainerItemProxy */;
+		};
+		4A41CC861E80B6E600A36654 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A41CC641E80B6E600A36654 /* BlueSky */;
+			targetProxy = 4A41CC851E80B6E600A36654 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A41CC6C1E80B6E600A36654 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A41CC6D1E80B6E600A36654 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A41CC711E80B6E600A36654 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A41CC721E80B6E600A36654 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A41CC8B1E80B6E600A36654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A41CC8C1E80B6E600A36654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A41CC8E1E80B6E600A36654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BQ7F5XB2U3;
+				INFOPLIST_FILE = BlueSky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangdongdong.BlueSky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4A41CC8F1E80B6E600A36654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BQ7F5XB2U3;
+				INFOPLIST_FILE = BlueSky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangdongdong.BlueSky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4A41CC911E80B6E600A36654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BQ7F5XB2U3;
+				INFOPLIST_FILE = BlueSkyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangdongdong.BlueSkyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueSky.app/BlueSky";
+			};
+			name = Debug;
+		};
+		4A41CC921E80B6E600A36654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BQ7F5XB2U3;
+				INFOPLIST_FILE = BlueSkyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangdongdong.BlueSkyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueSky.app/BlueSky";
+			};
+			name = Release;
+		};
+		4A41CC941E80B6E600A36654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BQ7F5XB2U3;
+				INFOPLIST_FILE = BlueSkyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangdongdong.BlueSkyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BlueSky;
+			};
+			name = Debug;
+		};
+		4A41CC951E80B6E600A36654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BQ7F5XB2U3;
+				INFOPLIST_FILE = BlueSkyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangdongdong.BlueSkyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BlueSky;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A41CC601E80B6E600A36654 /* Build configuration list for PBXProject "BlueSky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A41CC8B1E80B6E600A36654 /* Debug */,
+				4A41CC8C1E80B6E600A36654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A41CC8D1E80B6E600A36654 /* Build configuration list for PBXNativeTarget "BlueSky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A41CC8E1E80B6E600A36654 /* Debug */,
+				4A41CC8F1E80B6E600A36654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A41CC901E80B6E600A36654 /* Build configuration list for PBXNativeTarget "BlueSkyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A41CC911E80B6E600A36654 /* Debug */,
+				4A41CC921E80B6E600A36654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A41CC931E80B6E600A36654 /* Build configuration list for PBXNativeTarget "BlueSkyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A41CC941E80B6E600A36654 /* Debug */,
+				4A41CC951E80B6E600A36654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A41CC5D1E80B6E600A36654 /* Project object */;
+}
